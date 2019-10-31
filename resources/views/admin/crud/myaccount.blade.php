@@ -26,7 +26,7 @@
         <input type="text" class="form-control" name="role" value="{{ $key->rname }}" readonly="readonly">
 
         <br>
-        <input type="submit" value="update" class="btn btn-default" name="retype" disabled>
+        <input type="submit" value="update" class="btn btn-default" name="retype" >
 
     </div>
 </form>
