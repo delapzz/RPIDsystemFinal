@@ -8,7 +8,7 @@
         <title>CRUD Operations</title>
 
         <!-- Fonts -->
-        <link href="{{ asset('public/css/bootstrap.css') }}" rel="stylesheet" type="text/css">
+        <link href="/css/bootstrap.css" rel="stylesheet" type="text/css">
         @include('admin.layouts.app')
         
     </head>
@@ -20,6 +20,6 @@
         <br><br>
         @yield('content')
     </body>
-       <script type="text/javascript" src="{{ asset('public/js/jquery.js') }}"></script>
-       <script type="text/javascript" src="{{ asset('public/js/bootstrap.js') }}"></script>
+       <script type="text/javascript" src="/js/jquery.js"></script>
+       <script type="text/javascript" src="/js/bootstrap.js"></script>
 </html>
