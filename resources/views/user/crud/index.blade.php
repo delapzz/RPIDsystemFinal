@@ -13,7 +13,6 @@
         <th class="text-center">Document</th>
         <th class="text-center">Year Release</th>
         <th class="text-center">Item Code</th>
- 
         <th class="text-center">Actions</th>
       </tr>
     </thead>

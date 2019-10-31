@@ -9,8 +9,8 @@
       <tr>
         
         <th class="text-center">Name</th>
-        <th class="text-center">email</th>
-        <th class="text-center">Division</th>
+        <th class="text-center">username</th>
+        <th class="text-center">description</th>
         <th class="text-center">Role</th>
  
         <th colspan="2" class="text-center">Actions</th>

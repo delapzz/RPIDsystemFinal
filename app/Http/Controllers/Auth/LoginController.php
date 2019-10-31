@@ -29,12 +29,10 @@ class LoginController extends Controller
    public function authenticated(Request $request){
     
          // Logic that determines where to send the user
-         if($request->user()->hasRole('employee')){
+         if($request->user()->hasRole('user')){
          return redirect('userhome');
          }elseif ($request->user()->hasRole('admin')) {
            return redirect('adminhome');
-         }elseif($request->user()->hasRole('manager')){
-            return redirect('managerhome');
          }
        
 

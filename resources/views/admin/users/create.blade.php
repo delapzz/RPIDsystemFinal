@@ -41,20 +41,15 @@
     </div>
 
     <div class="form-group row">
-      <label for="smFormGroupInput" class="col-sm-3 col-form-label col-form-label-lg">Division</label>
+      <label for="smFormGroupInput" class="col-sm-3 col-form-label col-form-label-lg">Description</label>
         <div class="col-sm-3">
           {{-- <input type="text" class="form-control form-control-lg" name="division" > --}}
            
            <select class="form-control form-control-lg" name="division" >
              <option></option>
-             <option>APACC</option>
-             <option>ODG</option>
-             <option>Faculty</option>
-             <option>TDD</option>
-             <option>RPID</option>
-             <option>PCD</option>
-             <option>ICT</option>
-             <option>GSD</option>
+             @foreach($roles as $items)
+              <option>{{ $items->name }}</option>
+             @endforeach
            </select>
 
         </div>
